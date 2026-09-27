@@ -32,4 +32,26 @@ The data is not included in this repository due to its size and license; the not
 ![Conversion rate by group](Conversion%20Rate%20by%20Group%20%2895%25%20CI%29.png)
 
 ### Bootstrap distribution of relative lift
-![Bootstrap distribution of relative lift](Bootstrap%20Distribution%20of%20Relative%20Lift%20%28Convers
+![Bootstrap distribution of relative lift](Bootstrap%20Distribution%20of%20Relative%20Lift%20%28Conversion%29.png)
+
+### Covariate balance
+![Covariate balance](Covariate%20Balance%20%28Standardized%20Mean%20Difference.png)
+
+### Power curve
+![Power curve](Power%20curve.png)
+
+## Recommendation
+- **Roll out the campaign:** it delivers a robust, statistically significant lift in both visits and conversions.
+- **Improve ad reach:** only 3.6% of targeted users saw the ad, so most of the potential value is untapped.
+- **Next step:** build uplift models to identify which users respond most, and focus spend on them.
+
+## Limitations
+- Results are intent-to-treat; the CACE estimate relies on additional assumptions and has wider uncertainty.
+- Features are anonymized, which limits business interpretation of segments.
+- Conversions are rare (407 in control), which widens the conversion confidence interval.
+
+## Notebook
+Full analysis: [ab_test_criteo.ipynb](ab_test_criteo.ipynb)
+
+## Tools
+Python (pandas, NumPy, SciPy, statsmodels, Matplotlib), Jupyter Notebook
