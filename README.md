@@ -24,9 +24,10 @@ The data is not included here; the notebook shows how to download it.
 - Minimum detectable effect: 15.05%; the observed lift is about 4x the MDE
 - Only 3.61% of treated users were exposed; estimated effect on exposed users: +3.21 pp conversion (indicative)
 
-![Conversion by group](conversion_by_group.png)
-![Bootstrap lift](bootstrap_lift.png)
-![Power curve](power_curve.png)
+![Conversion rate by group](<Conversion Rate by Group (95% CI).png>)
+![Bootstrap distribution of relative lift](<BOOTSTRAP_FULL_NAME.png>)
+![Covariate balance](<COVARIATE_FULL_NAME.png>)
+![Power curve](<Power curve.png>)
 
 ## Recommendation
 Roll out the campaign and improve ad reach, since only 3.6% of targeted users actually saw the ad. Next step: uplift modeling to identify which users respond most.
